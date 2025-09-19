@@ -30,7 +30,8 @@ I have rich and diverse teaching experience both as instructor (Higher School of
 
 
 ### As Graduate Teaching Assistant (Penn State University)
-- Environmental Economics (ECON 428, undergraduate), Fall 2024;
+- Environmental Economics (ECON 428, undergraduate), Fall 2024 & Fall 2025;
+- Advanced Macroeconomics (ECON 522, graduate), Spring 2025 
 - Economics of Public Expenditures (ECON 425, undergraduate), Spring 2024;
 - Monetary Theory and Policy (ECON 451, undergraduate), Fall 2022 & Fall 2023;
 - Corporate Economics (ECON 444, undergraduate), Spring 2023.
