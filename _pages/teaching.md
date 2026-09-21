@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 6
 ---
-I have rich and diverse teaching experience both as instructor (Higher School of Economics University) and graduate teaching assistant (Penn State University).
+I have rich and diverse teaching experience both as an instructor (Higher School of Economics University) and a graduate teaching assistant (Penn State University).
 
 ### Awards
 
@@ -30,6 +30,8 @@ I have rich and diverse teaching experience both as instructor (Higher School of
 
 
 ### As Graduate Teaching Assistant (Penn State University)
+- Urban Economics (ECON 432, undergraduate), Fall 2026;
+- Economics of Climate Change (ECON 415, undergraduate), Spring 2026;
 - Environmental Economics (ECON 428, undergraduate), Fall 2024 & Fall 2025;
 - Advanced Macroeconomics (ECON 522, graduate), Spring 2025 
 - Economics of Public Expenditures (ECON 425, undergraduate), Spring 2024;
