@@ -2,7 +2,7 @@
 layout: page
 permalink: /Research/
 title: Research
-description: Below you may find my most recent working papers.
+description: Below you may find my most recent papers.
 nav: true
 nav_order: 2
 ---
