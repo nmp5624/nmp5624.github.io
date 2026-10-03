@@ -11,7 +11,7 @@ nav: false
 <a class="research-back-link" href="{{ '/Research/' | relative_url }}"><span aria-hidden="true">←</span> All research areas</a>
 
 <div class="research-section-intro">
-  <p>My theoretical econometrics research develops optimal statistical treatment rules, with particular attention to quantile objectives, finite-sample regret, and large-sample decision theory.</p>
+  <p>My recent work in theoretical econometrics focuses on the derivation of optimal statistical treatment assignment rules and empirical process theory.</p>
 </div>
 
 <div class="research-publications publications">
