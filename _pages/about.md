@@ -8,11 +8,6 @@ profile:
   align: right
   image: prof_pic_true.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>403 Kern,</p>
-    <p>Department of Economics,</p>
-    <p>Penn State University,</p>
-    <p>State College, PA 16801, USA</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -24,9 +19,3 @@ Hello and welcome to my website! I'm a sixth-year PhD student in Economics at Pe
 My recent research in **labor economics** focuses on structural modeling of children's human capital evolution and estimation of causal effects of parental inputs at different stages of child's development.\\
 My recent work in **theoretical econometrics** focuses on the derivation of optimal statistical treatment assignment rules and empirical process theory. \\
 Please see the [Research](/Research/) section of this website for more details.
-
-## Education
-
-- **Ph.D. in Economics**, Penn State University, USA, *2021 – Present*
-- **M.S. in Economics**, Higher School of Economics University, Russia, *2017 – 2019*
-- **B.A. in Management**, Higher School of Economics University, Russia, *2013 – 2017*
