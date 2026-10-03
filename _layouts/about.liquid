@@ -3,47 +3,62 @@ layout: default
 ---
 <style>
   .about-intro {
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 32%);
+    align-items: start;
+    gap: clamp(2rem, 5vw, 3.5rem);
   }
 
   .about-intro .about-content {
-    flex: 1 1 0;
+    grid-column: 1;
+    grid-row: 1;
     min-width: 0;
   }
 
   .about-intro .profile {
-    flex: 0 0 34%;
-    width: auto;
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    max-width: 280px;
     margin: 0;
+    justify-self: end;
   }
 
-  .about-intro.profile-right .about-content {
-    order: 1;
+  .about-intro .profile img {
+    border-radius: 0.75rem;
   }
 
-  .about-intro.profile-right .profile {
-    order: 2;
+  .about-intro .about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.65;
   }
 
-  @media (max-width: 575.98px) {
+  .about-intro .job-market {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding: 0.85rem 1rem;
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 0 0.5rem 0.5rem 0;
+    background: var(--global-card-bg-color);
+    font-weight: 600;
+  }
+
+  @media (max-width: 767.98px) {
     .about-intro {
-      flex-direction: column;
-      gap: 1.25rem;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
     }
 
-    .about-intro .profile,
+    .about-intro .profile {
+      grid-column: 1;
+      grid-row: 1;
+      width: min(78%, 320px);
+      justify-self: center;
+    }
+
     .about-intro .about-content {
-      width: 100%;
-    }
-
-    .about-intro.profile-right .profile {
-      order: 1;
-    }
-
-    .about-intro.profile-right .about-content {
-      order: 2;
+      grid-column: 1;
+      grid-row: 2;
     }
   }
 </style>
@@ -73,8 +88,7 @@ layout: default
               {% assign profile_image_class = 'img-fluid z-depth-1
         rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.34}}px, (min-width: 576px)
-        34vw, 95vw"{% endcapture %}
+            {% capture sizes %}(min-width: {{site.max_width}}) 280px, (min-width: 768px) 32vw, 320px{% endcapture %}
             {%
               include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
               cache_bust=true
