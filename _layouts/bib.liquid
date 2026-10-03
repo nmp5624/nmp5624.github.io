@@ -193,11 +193,13 @@
   </div>
     </div>
     {% if entry.abstract %}
-    <!-- Abstract block -->
-    <div class="abstract">
-    <p>{{ entry.abstract }}</p>
-    </div>
-{% endif %}
+      <details class="paper-abstract">
+        <summary>Abstract</summary>
+        <div class="paper-abstract-body">
+          <p>{{ entry.abstract }}</p>
+        </div>
+      </details>
+    {% endif %}
 
 
     {% if site.enable_publication_badges %}
