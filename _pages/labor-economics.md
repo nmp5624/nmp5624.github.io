@@ -11,7 +11,7 @@ nav: false
 <a class="research-back-link" href="{{ '/Research/' | relative_url }}"><span aria-hidden="true">←</span> All research areas</a>
 
 <div class="research-section-intro">
-  <p>My work in labor economics studies how families shape children's human capital through parental investments, discipline, time allocation, and household policy.</p>
+  <p>My recent research in labor economics focuses on structural modeling of children's human capital evolution and estimation of causal effects of parental inputs at different stages of child's development.</p>
 </div>
 
 <div class="research-publications publications">
