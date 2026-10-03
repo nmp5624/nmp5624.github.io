@@ -1,6 +1,53 @@
 ---
 layout: default
 ---
+<style>
+  .about-intro {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .about-intro .about-content {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .about-intro .profile {
+    flex: 0 0 34%;
+    width: auto;
+    margin: 0;
+  }
+
+  .about-intro.profile-right .about-content {
+    order: 1;
+  }
+
+  .about-intro.profile-right .profile {
+    order: 2;
+  }
+
+  @media (max-width: 575.98px) {
+    .about-intro {
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .about-intro .profile,
+    .about-intro .about-content {
+      width: 100%;
+    }
+
+    .about-intro.profile-right .profile {
+      order: 1;
+    }
+
+    .about-intro.profile-right .about-content {
+      order: 2;
+    }
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
