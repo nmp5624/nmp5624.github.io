@@ -22,24 +22,23 @@ My recent work in **theoretical econometrics** focuses on the derivation of opti
 
 Please see the [Research](/Research/) section of this website for more details.
 
+<p class="job-market">I am on the 2026–2027 job market.</p>
+
 <section class="latest-work" aria-labelledby="latest-work-title">
   <div class="latest-work-header">
     <span class="latest-work-kicker">What's new?</span>
     <span class="latest-work-label">Most recent work</span>
   </div>
-  <h2 id="latest-work-title">Finite-Sample Minimax-Regret Treatment Choice with Interval-Observed Outcomes</h2>
-  <p class="latest-work-meta">Working paper · October 2026</p>
+  <h2 id="latest-work-title">Finite-Sample Minimax-Regret Treatment Choice with Interval-Observed Outcomes (2026)</h2>
+  <p class="latest-work-meta">Working paper</p>
   <details class="latest-work-abstract">
     <summary>Read the abstract</summary>
     <p>Consider a setup where a decision maker has to choose whether to apply treatment to a population after observing a finite sample. Stoye (2009) characterises the solution to the minimax regret problem in this setup when a finite sample consists of actual outcome realizations. However, in many applied problems, instead of the realized outcomes, the decision maker observes only the intervals containing them. We study a finite-sample minimax regret problem in this setting. With no restriction on interval width, assigning treatment with probability 1/2 yields minimax regret. With widths bounded by h0 and h1 in the two arms, we first show that minimax regret converges to (h0+h1)/4 in the limiting experiment and derive a corresponding asymptotically optimal plug-in treatment rule. Then, for h0+h1≥1, we derive an explicit minimax regret rule which attains this value in finite samples. For h0+h1&lt;1, we establish the existence of an optimal treatment rule and characterize it implicitly through a well-behaved finite-dimensional optimization problem. A simulation experiment then shows that the derived analytic rule produces superior finite-sample minimax regret relative to several heuristic alternatives, with the plug-in rule coming very close when the sample size is sufficiently large.</p>
   </details>
   <div class="latest-work-actions">
     <a class="latest-work-primary" href="{{ '/assets/pdf/Minimax_Regret_Bracketed.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
-    <a class="latest-work-secondary" href="{{ '/Research/Theoretical-Econometrics/' | relative_url }}">View theoretical econometrics <span aria-hidden="true">→</span></a>
   </div>
 </section>
-
-<p class="job-market">I am on the 2026–2027 job market.</p>
 
 <style>
   .latest-work {
@@ -133,8 +132,7 @@ Please see the [Research](/Research/) section of this website for more details.
     margin-top: 1.1rem;
   }
 
-  .latest-work-primary,
-  .latest-work-secondary {
+  .latest-work-primary {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
@@ -152,10 +150,6 @@ Please see the [Research](/Research/) section of this website for more details.
     color: var(--global-bg-color);
     text-decoration: none;
     filter: brightness(0.93);
-  }
-
-  .latest-work-secondary:hover {
-    text-decoration-thickness: 2px;
   }
 
   @media (max-width: 575.98px) {
