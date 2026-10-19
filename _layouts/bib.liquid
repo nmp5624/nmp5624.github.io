@@ -193,7 +193,7 @@
   </div>
     </div>
     {% if entry.abstract %}
-      <details class="paper-abstract">
+      <details class="paper-abstract" ontoggle="if (this.open && !this.dataset.mathTypeset && window.MathJax && MathJax.typesetPromise) { this.dataset.mathTypeset = 'true'; MathJax.typesetPromise([this.querySelector('.paper-abstract-body')]); }">
         <summary>Abstract</summary>
         <div class="paper-abstract-body">
           <p>{{ entry.abstract }}</p>
